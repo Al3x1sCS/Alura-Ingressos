@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import CPF_CNPJ_Validator
+// import CPF_CNPJ_Validator
 
 class ViewController: UIViewController {
     
@@ -29,8 +29,9 @@ class ViewController: UIViewController {
     
     @IBAction func botaoComprar(_ sender: UIButton) {
         let textFieldsEstaoPreenchidos = ValidaFormulario().verificaTextFieldsPreenchidos(textFields: textFields)
+        let textFieldsEstaoValidos = ValidaFormulario().verificaTextFieldsValidos(listaDeTextFields: textFields)
         
-        if textFieldsEstaoPreenchidos {
+        if textFieldsEstaoPreenchidos && textFieldsEstaoValidos {
             let alerta = ValidaFormulario().exibeNotificacaoDePreenchimentoDosTextFields(titulo: "Parabéns", mensagem: "Compra efetuada com sucesso.")
             present(alerta, animated: true, completion: nil)
         }
@@ -39,6 +40,6 @@ class ViewController: UIViewController {
             present(alerta, animated: true, completion: nil)
         }
     }
-
+    
 }
 
