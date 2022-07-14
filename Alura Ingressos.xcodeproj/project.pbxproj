@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0F629B2880788A00287B2B /* ValidaFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F629A2880788A00287B2B /* ValidaFormulario.swift */; };
 		CE81E5CC287F39A100BE3A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E5CB287F39A100BE3A27 /* AppDelegate.swift */; };
 		CE81E5CE287F39A100BE3A27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E5CD287F39A100BE3A27 /* SceneDelegate.swift */; };
 		CE81E5D0287F39A100BE3A27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81E5CF287F39A100BE3A27 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0F629A2880788A00287B2B /* ValidaFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidaFormulario.swift; sourceTree = "<group>"; };
 		CE81E5C8287F39A100BE3A27 /* Alura Ingressos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alura Ingressos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE81E5CB287F39A100BE3A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE81E5CD287F39A100BE3A27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0F62982880781000287B2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE0F629A2880788A00287B2B /* ValidaFormulario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE0F62992880782A00287B2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE81E5CF287F39A100BE3A27 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CE81E5BF287F39A100BE3A27 = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +82,8 @@
 			children = (
 				CE81E5CB287F39A100BE3A27 /* AppDelegate.swift */,
 				CE81E5CD287F39A100BE3A27 /* SceneDelegate.swift */,
-				CE81E5CF287F39A100BE3A27 /* ViewController.swift */,
+				CE0F62982880781000287B2B /* Model */,
+				CE0F62992880782A00287B2B /* Controller */,
 				CE81E5D1287F39A100BE3A27 /* Main.storyboard */,
 				CE81E5D4287F39A700BE3A27 /* Assets.xcassets */,
 				CE81E5DF287F583200BE3A27 /* logo_alura.png */,
@@ -152,6 +171,7 @@
 			files = (
 				CE81E5D0287F39A100BE3A27 /* ViewController.swift in Sources */,
 				CE81E5CC287F39A100BE3A27 /* AppDelegate.swift in Sources */,
+				CE0F629B2880788A00287B2B /* ValidaFormulario.swift in Sources */,
 				CE81E5CE287F39A100BE3A27 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

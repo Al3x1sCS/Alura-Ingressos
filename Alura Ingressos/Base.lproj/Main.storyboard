@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alura_Ingressos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alura_Ingressos" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -257,6 +257,9 @@
                                                 <color key="tintColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Comprar"/>
+                                                <connections>
+                                                    <action selector="botaoComprar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T60-2g-kPm"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -317,6 +320,17 @@
                     <size key="freeformSize" width="414" height="1200"/>
                     <connections>
                         <outlet property="imagemBanner" destination="xNu-dX-gXm" id="KKk-kd-3XJ"/>
+                        <outletCollection property="textFields" destination="byL-Ne-2DP" collectionClass="NSMutableArray" id="vO0-hP-fBG"/>
+                        <outletCollection property="textFields" destination="Xbl-YW-js0" collectionClass="NSMutableArray" id="5jk-4i-GPJ"/>
+                        <outletCollection property="textFields" destination="qb4-U8-qIV" collectionClass="NSMutableArray" id="16h-DF-P9F"/>
+                        <outletCollection property="textFields" destination="E6B-DI-EPS" collectionClass="NSMutableArray" id="pJ4-Cd-2M2"/>
+                        <outletCollection property="textFields" destination="921-0a-Dzj" collectionClass="NSMutableArray" id="eDZ-a3-IqQ"/>
+                        <outletCollection property="textFields" destination="b3g-Un-bop" collectionClass="NSMutableArray" id="kh7-4Q-NpF"/>
+                        <outletCollection property="textFields" destination="CDI-6E-QdN" collectionClass="NSMutableArray" id="lxw-Db-wyP"/>
+                        <outletCollection property="textFields" destination="InW-Wf-1Yh" collectionClass="NSMutableArray" id="Kh2-UT-ydC"/>
+                        <outletCollection property="textFields" destination="cLs-el-olG" collectionClass="NSMutableArray" id="8Ka-0h-tHB"/>
+                        <outletCollection property="textFields" destination="fTe-Ja-SNm" collectionClass="NSMutableArray" id="p2s-TO-Nkg"/>
+                        <outletCollection property="textFields" destination="5Ib-ZT-p94" collectionClass="NSMutableArray" id="des-DI-guK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
