@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CPF_CNPJ_Validator
 
 class ViewController: UIViewController {
     
@@ -18,6 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.imagemBanner.layer.cornerRadius = 10
         self.imagemBanner.layer.masksToBounds = true
+        
+
     }
     
     override func didReceiveMemoryWarning() {

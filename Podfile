@@ -6,5 +6,7 @@ target 'Alura Ingressos' do
   use_frameworks!
 
   # Pods for Alura Ingressos
+  
+  pod 'CPF-CNPJ-Validator', '~> 1.0'
 
 end

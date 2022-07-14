@@ -7,37 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30816706C35260827F1D1FD5991AD362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8A0BB521E1D7FD77806F3D3542453EA2 /* Pods-Alura Ingressos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A75A5549225970EA5F8E9BD09B52F9C6 /* Pods-Alura Ingressos-dummy.m */; };
-		F6600FCB6D425BE08E973E8F57E45BE4 /* Pods-Alura Ingressos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 713248AF339727B7F02D868CCE39BEBE /* Pods-Alura Ingressos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A0C8E7666952E1725A8BDF9B6630A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1CE543C61775E30F7267CC46FABEA729 /* Pods-Alura Ingressos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A224F774588A11D20444091CE51A6 /* Pods-Alura Ingressos-dummy.m */; };
+		442F716DC7A5E28E2D36DB8D69BDDEF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		51EA95B28014FD2489B13F3250B3D997 /* Pods-Alura Ingressos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FC3DFC3E8C5F40EA3A4A8940297EEB /* Pods-Alura Ingressos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8248F7E24D18CF36CA19A3E93CD8DAD2 /* CPF-CNPJ-Validator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60806942B2AA7CA164C0159B861536CC /* CPF-CNPJ-Validator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899D203800E8456B0178536000EA9C54 /* CPF-CNPJ-Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE95AF06F6A3766D8A9B7685BB9E07 /* CPF-CNPJ-Validator.swift */; };
+		BB8DD7D2E4495A82A26726163729553A /* CPF-CNPJ-Validator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A50B02DF4B23EB61D4B1DA2FADE3B7 /* CPF-CNPJ-Validator-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AA99F356F29177C7C691A57CEC4DDBD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF4537D281B642FA0BE6D01C511544D;
+			remoteInfo = "CPF-CNPJ-Validator";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1A94F157AB8943B4F94C2719E97D4DAF /* Pods-Alura Ingressos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alura Ingressos-acknowledgements.markdown"; sourceTree = "<group>"; };
-		513BDA7406B6072132E91F1018F10154 /* Pods-Alura Ingressos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alura Ingressos-acknowledgements.plist"; sourceTree = "<group>"; };
-		5EC82E49BE510B5ECAA7A4B22B5FCD21 /* Pods-Alura Ingressos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Alura Ingressos.modulemap"; sourceTree = "<group>"; };
-		5EFBED0F0F03D4A348564ACAEC51ED69 /* Pods-Alura Ingressos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alura Ingressos-Info.plist"; sourceTree = "<group>"; };
-		713248AF339727B7F02D868CCE39BEBE /* Pods-Alura Ingressos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alura Ingressos-umbrella.h"; sourceTree = "<group>"; };
+		180F5AC2534B6DB81AA42F25FB114085 /* CPF-CNPJ-Validator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CPF-CNPJ-Validator.release.xcconfig"; sourceTree = "<group>"; };
+		1A220519373B38B0DCEE8E85ACF70738 /* Pods-Alura Ingressos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alura Ingressos-frameworks.sh"; sourceTree = "<group>"; };
+		1BDE3AD7177730CB192FF8DA48193E36 /* CPF-CNPJ-Validator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CPF-CNPJ-Validator-Info.plist"; sourceTree = "<group>"; };
+		260375238BD35AAB0DD14687E8A31E99 /* Pods-Alura Ingressos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alura Ingressos-acknowledgements.plist"; sourceTree = "<group>"; };
+		465A224F774588A11D20444091CE51A6 /* Pods-Alura Ingressos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alura Ingressos-dummy.m"; sourceTree = "<group>"; };
+		57DE95AF06F6A3766D8A9B7685BB9E07 /* CPF-CNPJ-Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPF-CNPJ-Validator.swift"; path = "Source/CPF-CNPJ-Validator.swift"; sourceTree = "<group>"; };
+		60806942B2AA7CA164C0159B861536CC /* CPF-CNPJ-Validator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPF-CNPJ-Validator-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7308ED65FC2BD4311EB9FFD528C5605F /* Pods-Alura Ingressos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Alura Ingressos"; path = Pods_Alura_Ingressos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C882D4D2FF9BB656291C29D527B8AA1 /* Pods-Alura Ingressos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alura Ingressos.debug.xcconfig"; sourceTree = "<group>"; };
-		97126A43C7C83421D8F53BA00303B375 /* Pods-Alura Ingressos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alura Ingressos.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A75A5549225970EA5F8E9BD09B52F9C6 /* Pods-Alura Ingressos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alura Ingressos-dummy.m"; sourceTree = "<group>"; };
+		9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF_CNPJ_Validator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPF_CNPJ_Validator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953131B7F34EE30991AB73A7AA26E7BD /* Pods-Alura Ingressos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alura Ingressos-Info.plist"; sourceTree = "<group>"; };
+		9BF2491948188C88E6FA08E3187365AE /* CPF-CNPJ-Validator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CPF-CNPJ-Validator.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A852A3B48721E7F41B654476BE7E80 /* CPF-CNPJ-Validator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPF-CNPJ-Validator-prefix.pch"; sourceTree = "<group>"; };
+		A1FC3DFC3E8C5F40EA3A4A8940297EEB /* Pods-Alura Ingressos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alura Ingressos-umbrella.h"; sourceTree = "<group>"; };
+		A97199B5AF5039CAD29E31F585176516 /* Pods-Alura Ingressos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alura Ingressos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B364021109C1799548DA5FF8AE643660 /* CPF-CNPJ-Validator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CPF-CNPJ-Validator.modulemap"; sourceTree = "<group>"; };
+		B3ABF2AEECFF5E9FCBF7CF8B23B65BD9 /* Pods-Alura Ingressos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alura Ingressos.debug.xcconfig"; sourceTree = "<group>"; };
+		D492BF72865C08846601C05F56070A79 /* Pods-Alura Ingressos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Alura Ingressos.modulemap"; sourceTree = "<group>"; };
+		DB29067B5632B00B665C4ED45CD1FD85 /* Pods-Alura Ingressos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alura Ingressos.release.xcconfig"; sourceTree = "<group>"; };
+		E0A50B02DF4B23EB61D4B1DA2FADE3B7 /* CPF-CNPJ-Validator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPF-CNPJ-Validator-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5ACFFF5E2D9FDB0A99D17AFC72759902 /* Frameworks */ = {
+		1C7F387A51DBD0E4FFADBBF1A6EFD68B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30816706C35260827F1D1FD5991AD362 /* Foundation.framework in Frameworks */,
+				11A0C8E7666952E1725A8BDF9B6630A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D00DF7969A790F3EAE89D6D36EE295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442F716DC7A5E28E2D36DB8D69BDDEF4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21DC9AC79695F9B04E5354E93B8BDA13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B364021109C1799548DA5FF8AE643660 /* CPF-CNPJ-Validator.modulemap */,
+				E0A50B02DF4B23EB61D4B1DA2FADE3B7 /* CPF-CNPJ-Validator-dummy.m */,
+				1BDE3AD7177730CB192FF8DA48193E36 /* CPF-CNPJ-Validator-Info.plist */,
+				A0A852A3B48721E7F41B654476BE7E80 /* CPF-CNPJ-Validator-prefix.pch */,
+				60806942B2AA7CA164C0159B861536CC /* CPF-CNPJ-Validator-umbrella.h */,
+				9BF2491948188C88E6FA08E3187365AE /* CPF-CNPJ-Validator.debug.xcconfig */,
+				180F5AC2534B6DB81AA42F25FB114085 /* CPF-CNPJ-Validator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CPF-CNPJ-Validator";
+			sourceTree = "<group>";
+		};
+		344AD51972705D280E6499361CC3B365 /* Pods-Alura Ingressos */ = {
+			isa = PBXGroup;
+			children = (
+				D492BF72865C08846601C05F56070A79 /* Pods-Alura Ingressos.modulemap */,
+				A97199B5AF5039CAD29E31F585176516 /* Pods-Alura Ingressos-acknowledgements.markdown */,
+				260375238BD35AAB0DD14687E8A31E99 /* Pods-Alura Ingressos-acknowledgements.plist */,
+				465A224F774588A11D20444091CE51A6 /* Pods-Alura Ingressos-dummy.m */,
+				1A220519373B38B0DCEE8E85ACF70738 /* Pods-Alura Ingressos-frameworks.sh */,
+				953131B7F34EE30991AB73A7AA26E7BD /* Pods-Alura Ingressos-Info.plist */,
+				A1FC3DFC3E8C5F40EA3A4A8940297EEB /* Pods-Alura Ingressos-umbrella.h */,
+				B3ABF2AEECFF5E9FCBF7CF8B23B65BD9 /* Pods-Alura Ingressos.debug.xcconfig */,
+				DB29067B5632B00B665C4ED45CD1FD85 /* Pods-Alura Ingressos.release.xcconfig */,
+			);
+			name = "Pods-Alura Ingressos";
+			path = "Target Support Files/Pods-Alura Ingressos";
+			sourceTree = "<group>";
+		};
+		3FC6EF5A164EC911F0772A4472641365 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				344AD51972705D280E6499361CC3B365 /* Pods-Alura Ingressos */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4DAD46BD1E9D87853BD896762B84CA9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8689D751AAC3601668C08EF5B2EAFCEA /* CPF-CNPJ-Validator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -46,28 +126,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75E30916E6D2D60742D84D633A2C71D1 /* Products */ = {
+		8689D751AAC3601668C08EF5B2EAFCEA /* CPF-CNPJ-Validator */ = {
 			isa = PBXGroup;
 			children = (
+				57DE95AF06F6A3766D8A9B7685BB9E07 /* CPF-CNPJ-Validator.swift */,
+				21DC9AC79695F9B04E5354E93B8BDA13 /* Support Files */,
+			);
+			path = "CPF-CNPJ-Validator";
+			sourceTree = "<group>";
+		};
+		8D9B7F2B955F89FA1B05A1921182741F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF_CNPJ_Validator.framework */,
 				7308ED65FC2BD4311EB9FFD528C5605F /* Pods-Alura Ingressos */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BE9AF15027102BADD8060D504A292FD9 /* Pods-Alura Ingressos */ = {
-			isa = PBXGroup;
-			children = (
-				5EC82E49BE510B5ECAA7A4B22B5FCD21 /* Pods-Alura Ingressos.modulemap */,
-				1A94F157AB8943B4F94C2719E97D4DAF /* Pods-Alura Ingressos-acknowledgements.markdown */,
-				513BDA7406B6072132E91F1018F10154 /* Pods-Alura Ingressos-acknowledgements.plist */,
-				A75A5549225970EA5F8E9BD09B52F9C6 /* Pods-Alura Ingressos-dummy.m */,
-				5EFBED0F0F03D4A348564ACAEC51ED69 /* Pods-Alura Ingressos-Info.plist */,
-				713248AF339727B7F02D868CCE39BEBE /* Pods-Alura Ingressos-umbrella.h */,
-				8C882D4D2FF9BB656291C29D527B8AA1 /* Pods-Alura Ingressos.debug.xcconfig */,
-				97126A43C7C83421D8F53BA00303B375 /* Pods-Alura Ingressos.release.xcconfig */,
-			);
-			name = "Pods-Alura Ingressos";
-			path = "Target Support Files/Pods-Alura Ingressos";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -75,8 +149,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				75E30916E6D2D60742D84D633A2C71D1 /* Products */,
-				EA5F5CAE50B89DAC981BA2ED6FCCB7B0 /* Targets Support Files */,
+				4DAD46BD1E9D87853BD896762B84CA9A /* Pods */,
+				8D9B7F2B955F89FA1B05A1921182741F /* Products */,
+				3FC6EF5A164EC911F0772A4472641365 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,40 +163,59 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EA5F5CAE50B89DAC981BA2ED6FCCB7B0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BE9AF15027102BADD8060D504A292FD9 /* Pods-Alura Ingressos */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ED37068ECCFDCCFE21E34C5528CB8914 /* Headers */ = {
+		DA31EB65641D50427B333DB87B6E7D4F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6600FCB6D425BE08E973E8F57E45BE4 /* Pods-Alura Ingressos-umbrella.h in Headers */,
+				8248F7E24D18CF36CA19A3E93CD8DAD2 /* CPF-CNPJ-Validator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E2ADCA2A46BDC23CE17C9DD4345535 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EA95B28014FD2489B13F3250B3D997 /* Pods-Alura Ingressos-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8E2A1CA05C75B234CEF2055E685457F9 /* Pods-Alura Ingressos */ = {
+		6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 279237DB549B6E1B81B8A284E714835C /* Build configuration list for PBXNativeTarget "Pods-Alura Ingressos" */;
+			buildConfigurationList = B84A2496009CD335F0F0C0420734FAD8 /* Build configuration list for PBXNativeTarget "CPF-CNPJ-Validator" */;
 			buildPhases = (
-				ED37068ECCFDCCFE21E34C5528CB8914 /* Headers */,
-				8141607FDBAC6C1F207C2BBA7241EC5A /* Sources */,
-				5ACFFF5E2D9FDB0A99D17AFC72759902 /* Frameworks */,
-				EF1A81363E95E000B6641F7D55907B00 /* Resources */,
+				DA31EB65641D50427B333DB87B6E7D4F /* Headers */,
+				0D7173DF11DCCFB65861E8FB7C609629 /* Sources */,
+				A9D00DF7969A790F3EAE89D6D36EE295 /* Frameworks */,
+				DD85F1D679DDBAA737C8DB08D2BEA286 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "CPF-CNPJ-Validator";
+			productName = CPF_CNPJ_Validator;
+			productReference = 9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF_CNPJ_Validator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E2A1CA05C75B234CEF2055E685457F9 /* Pods-Alura Ingressos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9808A814D85E759BDB88515858BC82 /* Build configuration list for PBXNativeTarget "Pods-Alura Ingressos" */;
+			buildPhases = (
+				E3E2ADCA2A46BDC23CE17C9DD4345535 /* Headers */,
+				C877FD2FCF8DFBC71E8D152FDE0CB254 /* Sources */,
+				1C7F387A51DBD0E4FFADBBF1A6EFD68B /* Frameworks */,
+				53C239E5FE55EFB7FE47FD038E5CF2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F218987F04CD8E4A88573FC0C51AFA5 /* PBXTargetDependency */,
 			);
 			name = "Pods-Alura Ingressos";
 			productName = Pods_Alura_Ingressos;
@@ -135,7 +229,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1340;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -146,17 +240,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 75E30916E6D2D60742D84D633A2C71D1 /* Products */;
+			productRefGroup = 8D9B7F2B955F89FA1B05A1921182741F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */,
 				8E2A1CA05C75B234CEF2055E685457F9 /* Pods-Alura Ingressos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EF1A81363E95E000B6641F7D55907B00 /* Resources */ = {
+		53C239E5FE55EFB7FE47FD038E5CF2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD85F1D679DDBAA737C8DB08D2BEA286 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,15 +268,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8141607FDBAC6C1F207C2BBA7241EC5A /* Sources */ = {
+		0D7173DF11DCCFB65861E8FB7C609629 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0BB521E1D7FD77806F3D3542453EA2 /* Pods-Alura Ingressos-dummy.m in Sources */,
+				899D203800E8456B0178536000EA9C54 /* CPF-CNPJ-Validator.swift in Sources */,
+				BB8DD7D2E4495A82A26726163729553A /* CPF-CNPJ-Validator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C877FD2FCF8DFBC71E8D152FDE0CB254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE543C61775E30F7267CC46FABEA729 /* Pods-Alura Ingressos-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F218987F04CD8E4A88573FC0C51AFA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CPF-CNPJ-Validator";
+			target = 6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */;
+			targetProxy = AA99F356F29177C7C691A57CEC4DDBD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
@@ -243,6 +363,44 @@
 			};
 			name = Debug;
 		};
+		2CE84D9A8D56329FC6DDA10ECDE39440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB29067B5632B00B665C4ED45CD1FD85 /* Pods-Alura Ingressos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2DE0D8898245310716431F92FA4989FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -305,9 +463,9 @@
 			};
 			name = Release;
 		};
-		B70D468FE9D476B334A5ADA3AD11D667 /* Debug */ = {
+		533F66CE7DA865C73C77EFD57CEF4CF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C882D4D2FF9BB656291C29D527B8AA1 /* Pods-Alura Ingressos.debug.xcconfig */;
+			baseConfigurationReference = B3ABF2AEECFF5E9FCBF7CF8B23B65BD9 /* Pods-Alura Ingressos.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -342,12 +500,10 @@
 			};
 			name = Debug;
 		};
-		F33443D26F335B8E0A31CA8991F4E71A /* Release */ = {
+		56597C46B8675D9C4E5A01F002CD48FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97126A43C7C83421D8F53BA00303B375 /* Pods-Alura Ingressos.release.xcconfig */;
+			baseConfigurationReference = 9BF2491948188C88E6FA08E3187365AE /* CPF-CNPJ-Validator.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -356,23 +512,56 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Alura Ingressos/Pods-Alura Ingressos.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator.modulemap";
+				PRODUCT_MODULE_NAME = CPF_CNPJ_Validator;
+				PRODUCT_NAME = CPF_CNPJ_Validator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		987B56B707CF11DD8DB5E8F363B0D864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180F5AC2534B6DB81AA42F25FB114085 /* CPF-CNPJ-Validator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator.modulemap";
+				PRODUCT_MODULE_NAME = CPF_CNPJ_Validator;
+				PRODUCT_NAME = CPF_CNPJ_Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -383,20 +572,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		279237DB549B6E1B81B8A284E714835C /* Build configuration list for PBXNativeTarget "Pods-Alura Ingressos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B70D468FE9D476B334A5ADA3AD11D667 /* Debug */,
-				F33443D26F335B8E0A31CA8991F4E71A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
 				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9808A814D85E759BDB88515858BC82 /* Build configuration list for PBXNativeTarget "Pods-Alura Ingressos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533F66CE7DA865C73C77EFD57CEF4CF7 /* Debug */,
+				2CE84D9A8D56329FC6DDA10ECDE39440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84A2496009CD335F0F0C0420734FAD8 /* Build configuration list for PBXNativeTarget "CPF-CNPJ-Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56597C46B8675D9C4E5A01F002CD48FB /* Debug */,
+				987B56B707CF11DD8DB5E8F363B0D864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

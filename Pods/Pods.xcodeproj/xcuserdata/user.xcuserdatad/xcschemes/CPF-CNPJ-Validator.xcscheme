@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8E2A1CA05C75B234CEF2055E685457F9"
-               BuildableName = "Pods_Alura_Ingressos.framework"
-               BlueprintName = "Pods-Alura Ingressos"
+               BlueprintIdentifier = "6BF4537D281B642FA0BE6D01C511544D"
+               BuildableName = "CPF_CNPJ_Validator.framework"
+               BlueprintName = "CPF-CNPJ-Validator"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

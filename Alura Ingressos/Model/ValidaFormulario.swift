@@ -7,6 +7,20 @@
 
 import UIKit
 
+enum TiposDeTextField:Int {
+    case nomeCompleto = 1
+    case email = 2
+    case cpf = 3
+    case cep = 4
+    case endereco = 5
+    case bairro = 6
+    case numeroDoCartao = 7
+    case mesDeVencimento = 8
+    case anoDeVencimento = 9
+    case codigoDeSeguranca = 10
+    case parcela = 11
+}
+
 class ValidaFormulario: NSObject {
     
     func verificaTextFieldsPreenchidos(textFields: Array<UITextField>) -> Bool {
