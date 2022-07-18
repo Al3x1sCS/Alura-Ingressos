@@ -20,6 +20,8 @@
 		CE81E5E4287F591F00BE3A27 /* bandeiras_cartoes.png in Resources */ = {isa = PBXBuildFile; fileRef = CE81E5E3287F591F00BE3A27 /* bandeiras_cartoes.png */; };
 		CECA98B928859D2A00DA67F1 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA98B828859D2A00DA67F1 /* Localizacao.swift */; };
 		CECA98BB28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA98BA28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift */; };
+		CECA98C02885EE2C00DA67F1 /* PickerViewMes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA98BF2885EE2C00DA67F1 /* PickerViewMes.swift */; };
+		CECA98C22885FB6F00DA67F1 /* PickerViewAno.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA98C12885FB6F00DA67F1 /* PickerViewAno.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		CE81E5E3287F591F00BE3A27 /* bandeiras_cartoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bandeiras_cartoes.png; path = ../../Assets/bandeiras_cartoes.png; sourceTree = "<group>"; };
 		CECA98B828859D2A00DA67F1 /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
 		CECA98BA28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoConsultaAPI.swift; sourceTree = "<group>"; };
+		CECA98BF2885EE2C00DA67F1 /* PickerViewMes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewMes.swift; sourceTree = "<group>"; };
+		CECA98C12885FB6F00DA67F1 /* PickerViewAno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewAno.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		CE0F62992880782A00287B2B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CECA98BC2885EDB800DA67F1 /* Componentes */,
 				CE81E5CF287F39A100BE3A27 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -123,6 +128,15 @@
 				CE81E5D9287F39A700BE3A27 /* Info.plist */,
 			);
 			path = "Alura Ingressos";
+			sourceTree = "<group>";
+		};
+		CECA98BC2885EDB800DA67F1 /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				CECA98BF2885EE2C00DA67F1 /* PickerViewMes.swift */,
+				CECA98C12885FB6F00DA67F1 /* PickerViewAno.swift */,
+			);
+			path = Componentes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +261,8 @@
 				CE81E5CC287F39A100BE3A27 /* AppDelegate.swift in Sources */,
 				CE0F629B2880788A00287B2B /* ValidaFormulario.swift in Sources */,
 				CE81E5CE287F39A100BE3A27 /* SceneDelegate.swift in Sources */,
+				CECA98C02885EE2C00DA67F1 /* PickerViewMes.swift in Sources */,
+				CECA98C22885FB6F00DA67F1 /* PickerViewAno.swift in Sources */,
 				CECA98BB28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift in Sources */,
 				CECA98B928859D2A00DA67F1 /* Localizacao.swift in Sources */,
 			);
