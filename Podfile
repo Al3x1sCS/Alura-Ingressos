@@ -7,6 +7,7 @@ target 'Alura Ingressos' do
 
   # Pods for Alura Ingressos
   
-  pod 'CPF-CNPJ-Validator', '~> 1.0'
+  pod 'CPF-CNPJ-Validator', '~> 1.0.2'
+  pod 'Alamofire',  '~> 4.5'
 
 end

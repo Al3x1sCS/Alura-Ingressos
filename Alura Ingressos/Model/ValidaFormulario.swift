@@ -8,7 +8,7 @@
 import UIKit
 import CPF_CNPJ_Validator
 
-enum TiposDeTextField:Int {
+enum TiposDeTextField: Int {
     case nomeCompleto = 1
     case email = 2
     case cpf = 3

@@ -18,6 +18,8 @@
 		CE81E5E0287F583200BE3A27 /* logo_alura.png in Resources */ = {isa = PBXBuildFile; fileRef = CE81E5DF287F583200BE3A27 /* logo_alura.png */; };
 		CE81E5E2287F591A00BE3A27 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = CE81E5E1287F591900BE3A27 /* banner.png */; };
 		CE81E5E4287F591F00BE3A27 /* bandeiras_cartoes.png in Resources */ = {isa = PBXBuildFile; fileRef = CE81E5E3287F591F00BE3A27 /* bandeiras_cartoes.png */; };
+		CECA98B928859D2A00DA67F1 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA98B828859D2A00DA67F1 /* Localizacao.swift */; };
+		CECA98BB28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA98BA28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		CE81E5DF287F583200BE3A27 /* logo_alura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_alura.png; path = ../../Assets/logo_alura.png; sourceTree = "<group>"; };
 		CE81E5E1287F591900BE3A27 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banner.png; path = ../../Assets/banner.png; sourceTree = "<group>"; };
 		CE81E5E3287F591F00BE3A27 /* bandeiras_cartoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bandeiras_cartoes.png; path = ../../Assets/bandeiras_cartoes.png; sourceTree = "<group>"; };
+		CECA98B828859D2A00DA67F1 /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
+		CECA98BA28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoConsultaAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,6 @@
 				74958333F5FFB5A55E93C070 /* Pods-Alura Ingressos.debug.xcconfig */,
 				A7163C227B5774A697B52015 /* Pods-Alura Ingressos.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -72,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				CE0F629A2880788A00287B2B /* ValidaFormulario.swift */,
+				CECA98B828859D2A00DA67F1 /* Localizacao.swift */,
+				CECA98BA28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -242,6 +247,8 @@
 				CE81E5CC287F39A100BE3A27 /* AppDelegate.swift in Sources */,
 				CE0F629B2880788A00287B2B /* ValidaFormulario.swift in Sources */,
 				CE81E5CE287F39A100BE3A27 /* SceneDelegate.swift in Sources */,
+				CECA98BB28859DAA00DA67F1 /* LocalizacaoConsultaAPI.swift in Sources */,
+				CECA98B928859D2A00DA67F1 /* Localizacao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

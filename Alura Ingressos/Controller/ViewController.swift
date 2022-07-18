@@ -6,7 +6,6 @@
 //
 
 import UIKit
-// import CPF_CNPJ_Validator
 
 class ViewController: UIViewController {
     
@@ -27,6 +26,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    func buscaTextField(tipoDeTextField: TiposDeTextField, completion: (_ textFieldSolicitado: UITextField) -> Void) {
+        for textField in textFields {
+            if let textFieldAtual = TiposDeTextField(rawValue: textField.tag) {
+                if textFieldAtual == tipoDeTextField {
+                    completion(textField)
+                }
+            }
+        }
+    }
+    
     @IBAction func botaoComprar(_ sender: UIButton) {
         let textFieldsEstaoPreenchidos = ValidaFormulario().verificaTextFieldsPreenchidos(textFields: textFields)
         let textFieldsEstaoValidos = ValidaFormulario().verificaTextFieldsValidos(listaDeTextFields: textFields)
@@ -40,6 +49,24 @@ class ViewController: UIViewController {
             present(alerta, animated: true, completion: nil)
         }
     }
+    
+    @IBAction func TextFieldCEPAlterouValor(_ sender: UITextField) {
+        
+        LocalizacaoConsultaAPI().consultaCepAPI(cep: sender.text!) { localizacao in
+            self.buscaTextField(tipoDeTextField: .endereco) { textFieldEndereco in
+                textFieldEndereco.text = localizacao.logradouro
+            }
+            self.buscaTextField(tipoDeTextField: .bairro) { textFieldBairro in
+                textFieldBairro.text = localizacao.bairro
+            }
+        } falha: { error in
+            print(error)
+        }
+
+
+        
+    }
+    
     
 }
 
