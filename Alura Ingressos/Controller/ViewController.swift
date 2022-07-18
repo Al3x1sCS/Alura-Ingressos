@@ -41,12 +41,14 @@ class ViewController: UIViewController {
         let textFieldsEstaoValidos = ValidaFormulario().verificaTextFieldsValidos(listaDeTextFields: textFields)
         
         if textFieldsEstaoPreenchidos && textFieldsEstaoValidos {
-            let alerta = ValidaFormulario().exibeNotificacaoDePreenchimentoDosTextFields(titulo: "Parabéns", mensagem: "Compra efetuada com sucesso.")
-            present(alerta, animated: true, completion: nil)
+            present(ValidaFormulario().exibeNotificacaoDeCompraRealizada(), animated: true, completion: nil)
+            //let alerta = ValidaFormulario().exibeNotificacaoDePreenchimentoDosTextFields(titulo: "Parabéns", mensagem: "Compra efetuada com sucesso.") // <- Estas linhas não deveriam estar no ViewController
+            //present(alerta, animated: true, completion: nil)
         }
         else {
-            let alerta = ValidaFormulario().exibeNotificacaoDePreenchimentoDosTextFields(titulo: "Alerta!", mensagem: "Preencha todos os campos corretamente.")
-            present(alerta, animated: true, completion: nil)
+            present(ValidaFormulario().exibeNotificacaoDePreenchimentoDosTextFields(), animated: true, completion: nil)
+            //let alerta = ValidaFormulario().exibeNotificacaoDePreenchimentoDosTextFields(titulo: "Alerta!", mensagem: "Preencha todos os campos corretamente.") // <- Estas linhas não deveriam estar no ViewController
+            //present(alerta, animated: true, completion: nil)
         }
     }
     

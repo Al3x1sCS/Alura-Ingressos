@@ -62,12 +62,20 @@ class ValidaFormulario: NSObject {
         return emailTest.evaluate(with: email)
     }
     
-    func exibeNotificacaoDePreenchimentoDosTextFields(titulo: String, mensagem: String) -> UIAlertController {
-        let notificacao = UIAlertController(title: titulo, message: mensagem, preferredStyle: .alert)
-        let botao = UIAlertAction(title: "OK", style: .default, handler: nil)
+    func exibeNotificacaoDePreenchimentoDosTextFields() -> UIAlertController {
+        let notificacao = UIAlertController(title: "Atenção", message: "Preencha corretamente os campos", preferredStyle: .alert)
+        let botao = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         notificacao.addAction(botao)
 
         return notificacao
     }
+    
+    func exibeNotificacaoDeCompraRealizada() -> UIAlertController {
+            let notificacao = UIAlertController(title: "Parabens", message: "Compra realizada com sucesso", preferredStyle: .alert)
+            let botao = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+            notificacao.addAction(botao)
+            
+            return notificacao
+        }
 
 }
